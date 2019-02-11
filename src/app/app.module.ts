@@ -20,6 +20,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     imports: [
         BrowserModule,
         AppRoutingModule,
+        HttpClientModule,
         TranslateModule.forRoot({
             loader: {
                 provide: TranslateLoader,
