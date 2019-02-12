@@ -7,6 +7,10 @@
     "TITLE": "I am the Main component!"
   },
   "CHILD": {
-    "TITLE": "I am the Child component!"
+    "TITLE": "I am the Child component!",
+    "item_one": "Item One",
+    "item_two": "Item Two",
+    "item_three": "Item Three",
+    "item_four": "Item Four"
   }
 }
