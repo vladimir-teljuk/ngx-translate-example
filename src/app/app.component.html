@@ -1,4 +1,7 @@
 <select #langSelect (change)="translate.use(langSelect.value)">
     <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
 </select>
+<a routerLink="./main">{{ 'APP.MAIN-LINK' | translate }}</a>
+<a routerLink="./child">{{ 'APP.CHILD-LINK' | translate }}</a>
+
 <router-outlet></router-outlet>

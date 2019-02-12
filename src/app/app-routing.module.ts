@@ -7,8 +7,12 @@ const routes: Routes = [
         loadChildren: './main/main.module#MainModule'
     },
     {
+        path: 'child',
+        loadChildren: './child/child.module#ChildModule'
+    },
+    {
         path: '',
-        redirectTo: 'main',
+        redirectTo: '',
         pathMatch: 'full'
     },
     {

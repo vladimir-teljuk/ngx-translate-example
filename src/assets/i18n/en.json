@@ -1,5 +1,12 @@
 {
+  "APP": {
+    "MAIN-LINK": "Main component",
+    "CHILD-LINK": "Child component"
+  },
   "MAIN": {
-    "TITLE": "Hello, main!"
+    "TITLE": "I am Main component!"
+  },
+  "CHILD": {
+    "TITLE": "I am Child component!"
   }
 }
