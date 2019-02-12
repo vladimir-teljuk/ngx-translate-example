@@ -8,6 +8,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {SharedModule} from './shared/shared.module';
 
 export function HttpLoaderFactory(http: HttpClient) {
     return new TranslateHttpLoader(http);
@@ -21,6 +22,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         BrowserModule,
         AppRoutingModule,
         HttpClientModule,
+        SharedModule,
         TranslateModule.forRoot({
             loader: {
                 provide: TranslateLoader,
