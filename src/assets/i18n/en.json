@@ -8,9 +8,8 @@
   },
   "CHILD": {
     "TITLE": "I am the Child component!",
-    "item_one": "Item One",
-    "item_two": "Item Two",
-    "item_three": "Item Three",
-    "item_four": "Item Four"
+    "item_one": "One",
+    "item_two": "Two",
+    "item_three": "Three"
   }
 }

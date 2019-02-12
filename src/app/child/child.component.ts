@@ -8,7 +8,7 @@ import {TranslateService} from '@ngx-translate/core';
 })
 export class ChildComponent implements OnInit {
 
-    public exampleArray = ['item_one, item_two, item_three, item_four'];
+    public exampleArray = ['item_one', 'item_two', 'item_three'];
 
     constructor(private translate: TranslateService) {
     }
