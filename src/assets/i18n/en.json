@@ -4,9 +4,9 @@
     "CHILD-LINK": "Child component"
   },
   "MAIN": {
-    "TITLE": "I am Main component!"
+    "TITLE": "I am the Main component!"
   },
   "CHILD": {
-    "TITLE": "I am Child component!"
+    "TITLE": "I am the Child component!"
   }
 }
